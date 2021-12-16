@@ -11,7 +11,6 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.google.gms:google-services:4.1.0'
     }
 }
 
@@ -57,7 +56,7 @@ dependencies {
     implementation 'com.aliyun.ams:third_vivopush:2.9.0.1'*/
     compileOnly 'com.aliyun.ams:huawei-push:2.6.3.305'
     compileOnly 'com.aliyun.ams:huawei-push-base:2.6.3.305'
-    compileOnly 'com.google.firebase:firebase-messaging:17.6.0'
+    // compileOnly 'com.google.firebase:firebase-messaging:17.6.0'
     compileOnly 'com.aliyun.ams:meizu-push:3.8.7.1'
     compileOnly 'com.aliyun.ams:third_vivopush:2.9.0.1'
 }
